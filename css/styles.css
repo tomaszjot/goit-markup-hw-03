@@ -13,6 +13,9 @@
   text-align: center;
   color: #ffffff;
   letter-spacing: 0.03em;
+  padding-left: 252px;
+  padding-right: 252px;
+  margin: 0;
 }
 body {
   font-family: "Roboto";
@@ -25,6 +28,7 @@ body {
 }
 .active {
   color: #2196f3;
+  display: inline;
 }
 .logo {
   color: #2196f3;
@@ -36,9 +40,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: bolder;
-  margin-top: 24px;
-  margin-left: 215px;
-  display: inline;
+  
+ 
 }
 .logo-footer {
   font-family: "Raleway";
@@ -59,7 +62,7 @@ a {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
-  display: inline;
+ 
 }
 a:hover,
 a:focus {
@@ -84,6 +87,10 @@ a:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   letter-spacing: 0.06em;
   cursor: pointer;
+  padding: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
+  margin-top: 30px;
 }
 .button-order:hover,
 .button-order:focus {
@@ -92,6 +99,12 @@ a:focus {
 
 .hero {
   background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title-h3 {
   text-align: left;
@@ -100,6 +113,7 @@ a:focus {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
+  display: flex;
 }
 .title-h2 {
   text-align: center;
@@ -112,6 +126,7 @@ a:focus {
   font-size: 14px;
   color: #757575;
   letter-spacing: 0.03em;
+  display: flex;
 }
 .names {
   font-weight: 500;
@@ -150,13 +165,47 @@ footer {
 .container {
   width: 1200px;
   margin: auto;
+  display: flex;
 }
 .section {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+.border {
+ border: 1px solid #ECECEC;
+}
+.position {
+display: inline;
+
+}
+.position2 {
+  display: flex;
+  margin-left: 371px;
+}
+.inline {
+  display: flex;
+  margin-left: 93px;
+  flex-basis: 254px;
+  justify-content: space-between;
+}
+.section-header {
   border: 1px solid #ECECEC;
   margin-left: 0 auto;
   margin-right: 0 auto;
 }
-.position {
-  display: inline;
-  
+.logo-position {
+  display: flex;
+  justify-content: flex-start;
+}
+.header {
+  display: flex;
+  align-items: baseline;
+  padding-left: 15px;
+  padding-right: 27px;
+  margin: auto;
+}
+.lorem {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
 }
