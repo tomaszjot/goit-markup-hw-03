@@ -111,9 +111,8 @@ a:focus {
   font-size: 14px;
   line-height: 1.14;
   font-weight: 700;
-  text-align: center;
   letter-spacing: 0.03em;
-  display: flex;
+  margin-bottom: 10px;
 }
 .title-h2 {
   text-align: center;
@@ -126,7 +125,7 @@ a:focus {
   font-size: 14px;
   color: #757575;
   letter-spacing: 0.03em;
-  display: flex;
+  
 }
 .names {
   font-weight: 500;
@@ -175,7 +174,7 @@ footer {
  border: 1px solid #ECECEC;
 }
 .position {
-display: inline;
+display: flex;
 
 }
 .position2 {
@@ -193,9 +192,13 @@ display: inline;
   margin-left: 0 auto;
   margin-right: 0 auto;
 }
-.logo-position {
+.display {
   display: flex;
-  justify-content: flex-start;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:  94px;
+  padding-bottom: 94px;
+  margin: 0;
 }
 .header {
   display: flex;
@@ -204,7 +207,22 @@ display: inline;
   padding-right: 27px;
   margin: auto;
 }
-.lorem {
-  display: flex;
-  align-items: baseline;
+.text-box {
+  flex-basis: 270px;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.img-display {
+display: flex;
+margin-top: 50px;
+padding: 0;
+
+}
+.h2-display {
+ flex-direction: column;
+ padding-left: 15px;
+padding-right: 15px;
+}
+.img {
+  margin-right: 30px;
 }
