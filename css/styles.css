@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --brand-color: #212121;
 }
@@ -31,6 +36,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: bolder;
+  margin-top: 24px;
+  margin-left: 215px;
+  display: inline;
 }
 .logo-footer {
   font-family: "Raleway";
@@ -51,6 +59,7 @@ a {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
+  display: inline;
 }
 a:hover,
 a:focus {
@@ -137,4 +146,17 @@ footer {
 }
 .adress-style {
   font-style: normal;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.section {
+  border: 1px solid #ECECEC;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+.position {
+  display: inline;
+  
 }
