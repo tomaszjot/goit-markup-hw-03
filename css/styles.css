@@ -51,6 +51,8 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   font-weight: bolder;
+  display: flex;
+  margin-bottom: 20px;
 }
 .bg-our-team {
   background-color: #f5f4fa;
@@ -80,6 +82,8 @@ a:focus {
   cursor: pointer;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  width: 121px;
 }
 .button-order {
   font-weight: 700;
@@ -121,6 +125,8 @@ a:focus {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 .text {
   font-size: 14px;
@@ -132,14 +138,22 @@ a:focus {
   font-weight: 500;
   letter-spacing: 0.03em;
   text-align: center;
+  margin: 0;
 }
 .caption {
   color: #757575;
   letter-spacing: 0.03em;
   text-align: center;
+  margin: 0;
+  margin-top: 10px;
+}
+.caption2 {
+   color: #757575;
+  letter-spacing: 0.03em;
+  margin: 0;
+  margin-top: 4px;
 }
 footer {
-  background-color: #2f303a;
   color: #ffffff;
   font-family: "Roboto";
   font-size: 14px;
@@ -157,18 +171,33 @@ footer {
   border-radius: 0px 0px 4px 4px;
   margin: 0;
 }
+.card2 {
+  margin: 0;
+  border: 1px solid #EEEEEE;
+}
+.card2 {
+
+}
 .menu-items {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
+  margin: 0;
 }
 .adress-style {
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+
 }
 .container {
   width: 1200px;
   margin: auto;
   display: flex;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .position {
 display: inline;
@@ -189,13 +218,33 @@ display: inline;
   margin-left: 0 auto;
   margin-right: 0 auto;
 }
+.section-footer {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+.column {
+  flex-direction: column;
+}
 .display {
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
   padding-top:  94px;
-  padding-bottom: 94px;
   margin: 0;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10.2px;
+  padding-right: 10.2px;
+  margin: 0;
+}
+.display-buttons {
+  display: inline-flex;
+  gap: 8px;
+  padding-left: 310px;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 .header {
   display: flex;
@@ -212,8 +261,9 @@ display: inline;
 }
 .img-display {
 display: flex;
-margin-top: 50px;
+margin-top: 0;
 padding: 0;
+margin-bottom: 0;
 
 }
 .h2-display {
@@ -223,7 +273,25 @@ padding-right: 15px;
 }
 .img {
   margin-right: 30px;
+  margin-bottom: 30px;
 }
+
 .sign-position {
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sign-position2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer {
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #2f303a;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-top: 60px;
 }
