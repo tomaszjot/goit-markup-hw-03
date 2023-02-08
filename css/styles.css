@@ -173,7 +173,6 @@ footer {
 }
 .card2 {
   margin: 0;
-  border: 1px solid #EEEEEE;
 }
 .menu-items {
   font-weight: 700;
@@ -272,7 +271,9 @@ padding-right: 15px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
+.no-gap {
+  display: block;
+}
 .sign-position {
   align-items: center;
   padding-top: 30px;
@@ -281,6 +282,7 @@ padding-right: 15px;
 .sign-position2 {
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 1px solid #EEEEEE;
 }
 .footer {
   height: 252px;
