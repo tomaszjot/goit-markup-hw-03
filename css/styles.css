@@ -54,6 +54,7 @@ body {
 }
 .bg-our-team {
   background-color: #f5f4fa;
+  display: flex;
 }
 a {
   font-weight: 500;
@@ -130,10 +131,12 @@ a:focus {
 .names {
   font-weight: 500;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .caption {
   color: #757575;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 footer {
   background-color: #2f303a;
@@ -152,6 +155,7 @@ footer {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin: 0;
 }
 .menu-items {
   font-weight: 700;
@@ -166,15 +170,8 @@ footer {
   margin: auto;
   display: flex;
 }
-.section {
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-}
-.border {
- border: 1px solid #ECECEC;
-}
 .position {
-display: flex;
+display: inline;
 
 }
 .position2 {
@@ -211,6 +208,7 @@ display: flex;
   flex-basis: 270px;
   flex-direction: column;
   margin-right: 30px;
+  display: flex;
 }
 .img-display {
 display: flex;
@@ -225,4 +223,7 @@ padding-right: 15px;
 }
 .img {
   margin-right: 30px;
+}
+.sign-position {
+  align-items: center;
 }
