@@ -161,6 +161,9 @@ footer {
   color: #ffffff99;
   letter-spacing: 0.03em;
 }
+.background {
+  border-bottom: 1px solid #ececec;
+}
 .unordered-list {
   list-style: none;
 }
@@ -192,6 +195,9 @@ footer {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.section-footer {
+  background-color: #2f303a;
 }
 .position {
   display: inline;
@@ -238,7 +244,6 @@ footer {
   padding-left: 15px;
   padding-right: 27px;
   margin: auto;
-  border-bottom: 1px solid #ececec;
 }
 .img-display {
   display: flex;
@@ -264,8 +269,6 @@ footer {
 }
 .h2-display {
   flex-direction: column;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .no-gap {
   display: block;
@@ -284,7 +287,6 @@ footer {
   padding-bottom: 60px;
   padding-top: 60px;
   margin: auto;
-  background-color: #2f303a;
   vertical-align: middle;
   padding-left: 15px;
 }
