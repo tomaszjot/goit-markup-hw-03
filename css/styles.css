@@ -228,9 +228,6 @@ footer {
   margin: 0;
   gap: 30px;
 }
-.products-width {
-  flex-basis: 370px;
-}
 .display-buttons {
   display: inline;
   padding-left: 310px;
@@ -244,12 +241,16 @@ footer {
   border-bottom: 1px solid #ececec;
 }
 .img-display {
-  display: inline-block;
+  display: flex;
   margin-top: 0;
   padding: 0;
   margin-bottom: 0;
   padding-left: 15px;
   padding-right: 15px;
+  gap: 30px;
+}
+.img {
+  flex-basis: 370px;
 }
 .img-display2 {
   display: flex;
@@ -257,9 +258,6 @@ footer {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
-}
-.img {
-  margin-right: 30px;
 }
 .img2 {
   flex-basis: 270px;
