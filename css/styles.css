@@ -254,7 +254,10 @@ footer {
   gap: 30px;
 }
 .img {
-  flex-basis: 370px;
+  flex-basis: calc((100%-60px) / 3);
+}
+.img-portfolio {
+  flex-basis: calc((100%-240px) / 9);
 }
 .img-display2 {
   display: flex;
@@ -263,7 +266,7 @@ footer {
   padding: 0;
 }
 .img2 {
-  flex-basis: 270px;
+  flex-basis: calc((100%-90px) / 4);
 }
 .no-gap {
   display: block;
