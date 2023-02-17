@@ -41,6 +41,8 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-footer {
   font-family: "Raleway";
@@ -110,6 +112,9 @@ a:focus {
   font-weight: 700;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
+  margin-top: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .title-h2 {
   text-align: center;
@@ -125,6 +130,8 @@ a:focus {
   color: #757575;
   letter-spacing: 0.03em;
   line-height: 1.7;
+  margin: 0;
+  margin-top: 10px;
 }
 .names {
   font-weight: 500;
@@ -204,12 +211,18 @@ footer {
   margin-left: 371px;
   gap: 50px;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .flex {
   display: flex;
   margin-left: 93px;
   padding: 0;
   gap: 46px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .inline {
   display: inline;
