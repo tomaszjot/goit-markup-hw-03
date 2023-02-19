@@ -260,9 +260,10 @@ footer {
   gap: 30px;
 }
 .display-buttons {
-  display: inline;
+  display: flex;
   padding-left: 295px;
   padding-right: 303px;
+  gap: 8px;
 }
 .header {
   display: flex;
