@@ -241,10 +241,6 @@ footer {
 .inline {
   display: inline;
 }
-
-.column {
-  flex-direction: column;
-}
 .flex-grid-4 {
   display: flex;
   padding-left: 0;
