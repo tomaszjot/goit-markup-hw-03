@@ -300,6 +300,7 @@ footer {
 .sign-position {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: var(--brand-color);
 }
 .sign-position2 {
   padding-top: 20px;
