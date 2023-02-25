@@ -19,19 +19,11 @@ ul {
   margin: 0;
   padding: 0;
 }
-p {
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  margin: 0;
-  padding: 0;
-}
-h2 {
-  margin: 0;
-  padding: 0;
-}
-h3 {
+p,
+h1,
+h2,
+h3,
+figure {
   margin: 0;
   padding: 0;
 }
@@ -56,7 +48,6 @@ body {
 }
 .active {
   color: var(--blue);
-  display: inline;
 }
 .logo {
   color: var(--blue);
@@ -157,7 +148,6 @@ a:focus {
   color: var(--grey);
   letter-spacing: 0.03em;
   line-height: 1.7;
-  margin: 0;
   margin-top: 10px;
 }
 .names {
@@ -165,13 +155,11 @@ a:focus {
   letter-spacing: 0.03em;
   text-align: center;
   line-height: 1.19;
-  margin: 0;
 }
 .caption {
   color: var(--grey);
   letter-spacing: 0.03em;
   text-align: center;
-  margin: 0;
   margin-top: 10px;
   line-height: 1.19;
 }
@@ -179,7 +167,6 @@ a:focus {
   color: var(--grey);
   letter-spacing: 0.03em;
   line-height: 1.88;
-  margin: 0;
   margin-top: 4px;
 }
 footer {
@@ -199,17 +186,12 @@ footer {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin: 0;
-}
-.card2 {
-  margin: 0;
 }
 .menu-items {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
   line-height: 2;
-  margin: 0;
 }
 .container {
   width: 1200px;
@@ -223,9 +205,6 @@ footer {
 }
 .section-footer {
   background-color: var(--grey-darker);
-}
-.link-placement {
-  display: inline;
 }
 .link-placement2 {
   display: flex;
@@ -242,13 +221,9 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
 }
-.inline {
-  display: inline;
-}
 .flex-grid-4 {
   display: flex;
   padding-left: 0;
-  margin: 0;
   gap: 30px;
   margin-bottom: 94px;
 }
@@ -289,8 +264,6 @@ footer {
 .img-display2 {
   display: flex;
   gap: 30px;
-  margin: 0;
-  padding: 0;
 }
 .img2 {
   flex-basis: calc((100% - 90px) / 4);
